@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>FLEX LAYOUT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <nav class="nav-bar">
+        <h3>My Portfolio</h3>
+                 <ul class="list">   
+                    <li><a href="#home"><button class="btn">HOME</button></a></li>
+                    <li><a href="#about"><button class="btn">ABOUT</button></a></li>
+                    <li><a href="#project"><button class="btn">PROJECT</button></a></li> 
+                    <li><a href="#contact"><button class="btn">CONTACT</button></a></li>
+                 </ul> 
+               </nav> 
+    <section id="home">
+    <div class="main">
+       <div class="box1">
+           <img src="https://avatar.iran.liara.run/public/1" alt="AVTAR" >
+       </div>
+       <div class="box2">  
+               <h1>welcome to my portfolio</h1>
+               <p>My name is Swikrit Parajuli <br> I am 21 years old and currently i am learning web development</p>
+               <button class="btn">PAY TO EXIT (99.99$)</button>
+
+        </div>
+    </div>
+    </section>
+    <section id="about">    
+        <h1>ABOUT</h1>
+        <table>
+            <tr>
+                <th>NAME</th>
+                <td>Swikrit Parajuli</td>
+            </tr>
+            <tr>
+                <th>AGE</th>
+                <td>21</td>
+            </tr>
+            <tr>
+                <th>COLLEGE</th>
+                <td>Kantipur engineering college</td>
+            </tr>
+            <tr>
+                <th>DEPARTMENT</th>
+                <td>Computer Science</td>
+        </table>
+    </section>
+    <section id="project">
+        <h1>PROJECT</h1>
+
+<table>
+    <tr>
+        <th>DAY</th>
+        <th>7:00-7:50</th>
+        <th>7:50-8:40</th>
+        <th>8:40-9:30</th>
+        <th>9:30-10:20</th>
+        <th>10:20-11:10</th>
+        <th>11:10-12:00</th>
+        <th>12:00-12:50</th>
+        <th>12:50-1:40</th>
+        <th>1:40-2:30</th>
+        <th>2:30-3:20</th>
+    </tr>
+
+    <tr>
+        <th>SUNDAY</th>
+        <td colspan="3">Database Management System<br>CT652<br>NiA</td>
+        <td>N/A</td>
+        <td colspan="2">Computer Networks & Security<br>CT702<br>AKC</td>
+        <td>N/A</td>
+        <td >Computer Organization & Architecture<br>CT603<br>AS</td>
+        <td colspan="2">N/A</td>
+        
+    </tr>
+
+    <tr>
+        <th>MONDAY</th>
+        <td colspan="2">Web Application Programming<br>CT302<br>UP</td>
+        <td colspan="2">N/A</td>
+        <td colspan="3">Computer Networks & Security<br>CT702<br>AKC + BiD<br>A-207 - Y</td>
+        <td colspan="2">Advance Python Programming for Data Science<br>ENCT325<br>Akk</td>
+        <td>N/A</td>
+    </tr>
+
+    <tr>
+        <th>TUESDAY</th>
+        <td colspan="2">Database Management System<br>CT652<br>NiA</td>
+        <td colspan="2">Web Application Programming<br>CT302<br>UP</td>
+        <td>N/A</td>
+        <td colspan="2">Probability & Statistics<br>SH602<br>DDG</td>
+        <td colspan="3">Web Application Programming LAB<br>CT302<br>SAS + PrT</td>
+    </tr>
+
+    <tr>
+        <th rowspan="3">WEDNESDAY</th>
+        <td colspan="2" rowspan="3">Computer Organization & Architecture<br>CT603<br>AS</td>
+        <td rowspan="3">N/A</td>
+        <td rowspan="3">Computer Networks & Security<br>CT702<br>AKC</td>
+        <td rowspan="3">N/A</td>
+        <td colspan="2" rowspan="3">Advance Python Programming<br>ENCT325<br>Akk</td>
+        <td colspan="3" rowspan="3">Computer Organization & Architecture LAB<br>CT603<br>AS + PrT<br>--------<br>Minor Project LAB<br>CT654<br>AS + RK</br></td>
+    </tr>
+
+    <tr></tr>
+
+    <tr></tr>
+    <tr >
+        <th>THURSDAY</th>
+        <td colspan="2">Computer Networks & Security<br>CT702<br>AKC</td>
+        <td colspan="2">Probability & Statistics<br>SH602<br>DDG</td>
+        <td>N/A</td>
+        <td colspan="2">Computer Organization & Architecture<br>CT603<br>AS</td>
+        <td colspan="3">Database Management System LAB<br>CT652<br>PrT + NiA</td>
+    </tr>
+
+</table>
+    </section>
+<section id="contact">
+    <h1>CONTACT ME</h1>
+  <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br><br>
+        <button type="submit" value="Submit">Submit</button>
+        <p id="error" style="color:red;"></p>
+    </form>
+</section>
+    </body>
+</body>
+</html>
